@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   /* background: radial-gradient(#CCD3D9, #261C1E); */
-  background-image: url("/images/fondo.jpeg");
+  background-image: url("images/fondo.jpeg");
   background-repeat: repeat;
   /* overflow: hidden; */
   font-family: 'Montserrat', sans-serif;
@@ -10,6 +10,15 @@ body {
 
 p {
   color: white;
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+  position: fixed;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
 /* FLOATING */
@@ -186,6 +195,7 @@ p {
 iframe {
   box-sizing: border-box;
   border: 5px #C3A3D9 solid;
+  margin: 15px;
 
 }
 
@@ -193,6 +203,25 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: white;
+}
+
+label {
+  margin: 4px;
+}
+ input, select, textarea {
+  border: 5px #C3A3D9 solid;
+ }
+
+button {
+  background-color: #C3A3D9; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 50%;
 }
 
 /* .container {
@@ -219,14 +248,18 @@ form {
 
 
 .avatar-linked {
-  
+  width: 150px;
+  height: 150px;
   box-sizing: border-box;
   border: 5px white solid;
   border-radius: 50%;
   overflow: hidden;
   box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
-  position: fixed;
-  display: inline-block;
+  /* position: fixed;
+  display: inline-block; */
+  box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+  transform: translatey(0px); 
+  animation: float 6s ease-in-out infinite;
   
 }
 
@@ -235,14 +268,19 @@ img {
   height: auto;
 }
 
+.laws {
+  width: 30%:
+  height: 30%;
+}
+
 
 
 footer {
   display: flex;
   justify-content: space-around;
-  align-items: baseline;
+  align-items: center;
   background-color: #C3A3D9;
-  /* text-align: left; */
+  text-align: left;
   position: fixed;
   left: 0;
   bottom: 0;

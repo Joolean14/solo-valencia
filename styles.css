@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   /* background: radial-gradient(#CCD3D9, #261C1E); */
-  background-image: url("/images/fondo.jpeg");
+  background-image: url("images/fondo.jpeg");
   background-repeat: repeat;
   /* overflow: hidden; */
   font-family: 'Montserrat', sans-serif;
@@ -19,6 +19,7 @@ body {
 
 p {
   color: white;
+
 }
 
 
