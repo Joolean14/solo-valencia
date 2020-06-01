@@ -1,14 +1,13 @@
 body {
   margin: 0;
   padding: 0;
-  /* background: radial-gradient(#CCD3D9, #261C1E); */
   background-image: url("images/fondo.jpeg");
   background-repeat: repeat;
   /* overflow: hidden; */
   font-family: 'Montserrat', sans-serif;
 }
 
-p {
+h2, p, li {
   color: white;
 }
 
@@ -32,7 +31,7 @@ p {
 
   50% {
     box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
-    transform: translatey(-20px);
+    transform: translatey(-40px);
   }
 
   100% {
@@ -163,6 +162,9 @@ p {
   transform: translate3d(0.9em, 7.7em, 0);
 }
 
+.circular-menu.active .menu-item:nth-child(6) {
+  transform: translate3d(-2.8em, 3em, 0);
+}
 
 
 
@@ -195,7 +197,7 @@ p {
 iframe {
   box-sizing: border-box;
   border: 5px #C3A3D9 solid;
-  margin: 15px;
+  margin: 40px;
 
 }
 
@@ -222,6 +224,7 @@ button {
   text-decoration: none;
   font-size: 16px;
   border-radius: 50%;
+  margin-top: 10px;
 }
 
 /* .container {
