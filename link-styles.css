@@ -14,7 +14,7 @@ h2, p, li {
 .logo {
   height: 100px;
   width: 100px;
-  position: fixed;
+  /* position: fixed; */
   border-radius: 50%;
   margin-top: 20px;
   margin-left: 20px;
@@ -284,7 +284,8 @@ footer {
   align-items: center;
   background-color: #C3A3D9;
   text-align: left;
-  position: fixed;
+  position;
+  /* position: fixed; */
   left: 0;
   bottom: 0;
   width: 100%;
