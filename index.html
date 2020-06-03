@@ -1,95 +1,92 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" type="image/png" href="images/favicon-solo.png">
-  <title>Solo Valencia</title>
-  <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="images/favicon-solo.png">
+    <title>Solo Valencia</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 </head>
 
 <body>
+    <div class="container">
+        <header>
+            <img class="logo" src="images/Solo Valencia.png" width="100%" alt="Logo solo valencia">
+            <!-- CIRCULAR MENU -->
+            <div id="circularMenu" class="circular-menu">
 
-  <header>
-      <img class="logo" src="images/Solo Valencia.png" alt="Logo solo valencia">
-  </header>
+                <a class="floating-btn" onclick="document.getElementById('circularMenu').classList.toggle('active');">
+                    <div class="circular-menu-plus">
+                        <i class="fa fa-plus"></i>
+                    </div>
+                </a>
 
-  <!-- CIRCULAR MENU -->
-  <div id="circularMenu" class="circular-menu">
+                <menu class="items-wrapper">
+                    <a href="newsletter.html" class="menu-item fa fa-rss"></a>
+                    <a href="videos.html" class="menu-item fa fa-video"></a>
+                    <a href="#" class="menu-item fa fa-address-book"></a>
+                    <a href="contacto.html" class="menu-item fa fa-align-left"></a>
+                    <a href="medios.html" class="menu-item fa fa-broadcast-tower"></a>
+                    <a href="/index.html" class="menu-item fa fa-home"></a>
 
-    <a class="floating-btn" onclick="document.getElementById('circularMenu').classList.toggle('active');">
-      <div class="circular-menu-plus">
-        <i class="fa fa-plus"></i>
-      </div>
-    </a>
+                </menu>
 
-    <menu class="items-wrapper">
-      <a href="newsletter.html" class="menu-item fa fa-rss"></a>
-      <a href="videos.html" class="menu-item fa fa-video"></a>
-      <a href="#" class="menu-item fa fa-address-book"></a>
-      <a href="contacto.html" class="menu-item fa fa-align-left"></a>
-      <a href="medios.html" class="menu-item fa fa-broadcast-tower"></a>
-      <a href="/index.html" class="menu-item fa fa-home"></a>
-      
-    </menu>
+            </div>
+        </header>
+        <section>
+            <!-- FLOATING MENU -->
+            <div class="floating-menu row">
 
-  </div>
+                <div class="avatar col-lg-2 col-sm-6 col-xs-6">
+                    <a href="medios.html">
+                        <img class="avatar" src="./images/boton1.png" alt="medios" title="Medios" />
+                    </a>
+                </div>
 
-  
+                <div class="avatar2 col-lg-2 col-sm-6 col-xs-6">
+                    <a href="videos.html">
+                        <img src="./images/boton2.png" alt="videos" title="Videos" />
+                    </a>
+                </div>
 
-  <!-- FLOATING MENU -->
-  <div class="floating-menu">
+                <div class="avatar3 col-lg-2 col-sm-6 col-xs-6">
+                    <a href="contacto.html">
+                        <img src="./images/boton3.png" alt="suscripcion" title="Contacto" />
+                    </a>
+                </div>
 
-    
-      <a href="medios.html">
-        <img class="avatar" src="./images/boton1.png" alt="medios" title="Medios" />
-      </a>
-    
+                <div class="avatar4 col-lg-2 col-sm-6 col-xs-6">
+                    <a href="/buscame.html">
+                        <img src="./images/boton4.png" alt="" title="Búscame" />
+                    </a>
+                </div>
 
-    <div class="avatar2">
-      <a href="videos.html">
-        <img src="./images/boton2.png" alt="videos" title="Videos" />
-      </a>
-    </div>
-
-    <div class="avatar3">
-      <a href="contacto.html">
-        <img src="./images/boton3.png" alt="suscripcion" title="Contacto" />
-      </a>
-    </div>
-
-    <div class="avatar4">
-      <a href="/buscame.html">
-        <img src="./images/boton4.png" alt="" title="Búscame" />
-      </a>
-    </div>
-
-    <div class="avatar">
-      <a href="/newsletter.html ">
-        <img src="./images/boton5.png" alt="Newsletter" title="Newsletter" />
-      </a>
-    </div>
-
-   
-  </div>
+                <div class="avatar col-lg-2 col-sm-6 col-xs-6">
+                    <a href="/newsletter.html ">
+                        <img src="./images/boton5.png" alt="Newsletter" title="Newsletter" />
+                    </a>
+                </div>
 
 
+            </div>
 
-  <footer>
-    <a href="https://www.facebook.com/solovalencia"><i class="fab fa-facebook fa-2x"></i></a>
-    <a href="https://www.instagram.com/solovalenciaco/"><i class="fab fa-instagram fa-2x"></i></a>
-    <a href="https://www.youtube.com/channel/UC6WooW-AUmucnJFyta9aRdQ"><i class="fab fa-youtube fa-2x"></i></a>
-    <a href="https://open.spotify.com/artist/2ZDmVE82uDUSsXwPnjr2xH"><i class="fab fa-spotify fa-2x"></i></a>
-    <p>© SOLO VALENCIA | <a href="terminos-condiciones.html">TÉRMINOS & CONDICIONES</a> | <a href="politicas-privacidad.html">PÓLITICAS DE
+
+        </section>
+        <footer>
+            <a href="https://www.facebook.com/solovalencia"><i class="fab fa-facebook fa-2x"></i></a>
+            <a href="https://www.instagram.com/solovalenciaco/"><i class="fab fa-instagram fa-2x"></i></a>
+            <a href="https://www.youtube.com/channel/UC6WooW-AUmucnJFyta9aRdQ"><i class="fab fa-youtube fa-2x"></i></a>
+            <a href="https://open.spotify.com/artist/2ZDmVE82uDUSsXwPnjr2xH"><i class="fab fa-spotify fa-2x"></i></a>
+            <p>© SOLO VALENCIA | <a href="terminos-condiciones.html">TÉRMINOS & CONDICIONES</a> | <a href="politicas-privacidad.html">PÓLITICAS DE
         PRIVACIDAD</a></p>
-  </footer>
+        </footer>
+
+    </div>
 
 
-
-
-  <script src="https://kit.fontawesome.com/98ca127883.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/98ca127883.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
-
